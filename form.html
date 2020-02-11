@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head> <style>
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+select{
+background-color:#00DA90;
+}
+input[type=radio]{
+padding:22px;
+}
+.anchor{
+float:right;
+margin:1px;
+color:#00FA9A;
+text-decoration: none;
+}
+
+body{
+align-content:center;
+}
+div{
+display:block;
+
+}
+#abc{
+padding-right:400px;
+padding-left:400px;
+}
+#def{
+border: 2px solid black;
+}
+#ghi{
+padding-left:30px;
+padding-right:10px;
+}
+#lmn{
+background-color:#d3d3d3;
+font-size: 40px;
+padding-left:30px;
+color:white;
+}
+#xyz{
+background-color:#d3d3d3;
+font-size: 50px;
+padding-left:30px;
+}
+input[type=file]{
+width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color:#d3d3d3;
+ 
+}
+#pqr{
+width:50%;
+}
+input[type=submit]{
+width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color:#00FA9A;
+ 
+ 
+}
+#tuv{
+color:#00FA90;
+padding:5px;
+font-size:20px;
+}
+</style>
+
+
+
+</head>
+<body>
+<div id="tuv">TO THE NEW <a href="#Home" class="anchor">Home</a> <a class="anchor" href="#Quick Help">Quick Help</a></div>
+<hr>
+
+<div id="abc">
+<div id="def">
+<div id="lmn">Bug Reports</div>
+<div id="ghi">
+<br>
+<form >
+  Title:<br>
+  <input type="text" required>
+  <br>
+  Description:<br>
+  <textarea rows="4" cols="50" required></textarea>
+  <br>
+  Operating System: <br>
+  <select>
+    <option>Windows XP</option>
+    <option>Ubuntu</option>
+    <option>Windows 7</option>
+    <option>Windows 9</option>
+     <option>Windows 10</option>
+  </select>
+<br>
+  Product: <br>
+  <select required>
+    <option>Formoid</option>
+    <option>Normal</option>
+    <option>Weak</option>
+  </select>
+<br>
+Version: <br>
+<input type="text" required>
+<br>
+License: <br>
+<input type="radio" value="Free" name="a">Free &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" value="Business" name="a">Business
+<br><br>
+Security: <br>
+<select required>
+    <option>Critical</option>
+    <option>Normal</option>
+    <option>Weak</option>
+  </select>
+<br>
+Attachments: <br>
+ <input type="text" id="pqr"><input type="file" name="myFile"> <br>
+
+</div>
+<div id="xyz"><input type="Submit" value="Send"></div>
+</form>
+
+</div>
+</div>
+</body>
+</html>
+
